@@ -1,5 +1,5 @@
-var React = require('react/addons'),
-    renderIntoDocument = React.addons.TestUtils.renderIntoDocument,
+var React = require('react'),
+    renderIntoDocument = require('react-addons-test-utils').renderIntoDocument,
     serialize = require('../src/serialize.js').serialize;
 
 describe('Serialize', function() {
